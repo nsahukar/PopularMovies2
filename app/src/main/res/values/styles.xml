@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+    </style>
+
+    <!-- Tab Layout style -->
+    <style name="TabBar.Solid.PopularMovies2" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryText</item>
+        <item name="tabTextColor">@color/colorSecondaryText</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextAppearance.PopularMovies2.Headline" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">@dimen/material_text_headline</item>
+    </style>
+
+    <style name="TextAppearance.PopularMovies2.Title" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/material_text_title</item>
+    </style>
+
+    <style name="TextAppearance.PopularMovies2.Subhead" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">@dimen/material_text_subhead</item>
+    </style>
+
+    <style name="TextAppearance.PopularMovies2.Body1" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/material_text_body1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Application -->
+    <string name="blank">&#160;</string>
+
+    <!-- Movies Activity -->
+    <string name="tab_popular">Popular</string>
+    <string name="tab_top_rated">Top Rated</string>
+    <string name="tab_favourite">Favourite</string>
+    <string name="btn_retry_title">Retry</string>
+    <string name="content_desc_movie_poster">Movie Poster</string>
+    <string name="transition_movie_poster">Movie Poster Transition</string>
+
+    <!-- Movie Detail Activity -->
+    <string name="content_desc_movie_backdrop">Movie Backdrop</string>
+    <string name="menu_favourite_title">Favourite</string>
+    <string name="label_plot">Plot</string>
+    <string name="label_trailers">Trailers</string>
+    <string name="label_reviews">Reviews</string>
+    <string name="content_desc_video_thumbnail">Movie Trailer</string>
+
+    <!-- Error Messages -->
+    <string name="err_no_fav_movies">No movies marked as favourite yet.</string>
+    <string name="err_no_internet_connection">No Internet connection. Make sure that Wi-Fi or cellular mobile data is turned on, then try again.</string>
+    <string name="err_no_data">Not able to retrieve movies this time. Please try after some time.</string>
+    <string name="err_invalid_data">Well this is embarrassing, invalid data received. Report to developer.</string>
+</resources>

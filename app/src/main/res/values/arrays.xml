@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabs">
+        <item>@string/tab_popular</item>
+        <item>@string/tab_top_rated</item>
+        <item>@string/tab_favourite</item>
+    </string-array>
+</resources>

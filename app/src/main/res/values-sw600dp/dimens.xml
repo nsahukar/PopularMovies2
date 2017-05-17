@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="grid_padding_left">64dp</dimen>
+    <dimen name="grid_padding_right">@dimen/grid_padding_left</dimen>
+
+    <dimen name="detail_padding_left">64dp</dimen>
+    <dimen name="detail_padding_right">@dimen/detail_padding_left</dimen>
+    <dimen name="detail_poster_width">185dp</dimen>
+    <dimen name="detail_poster_height">278dp</dimen>
+
+    <dimen name="material_text_body1">16sp</dimen>
+    <dimen name="material_text_body2">17sp</dimen>
+    <dimen name="material_text_subhead">20sp</dimen>
+    <dimen name="material_text_title">24sp</dimen>
+    <dimen name="material_text_headline">34sp</dimen>
+
+</resources>

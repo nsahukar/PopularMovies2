@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poster"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:background="@color/colorPrimaryDark"
+    android:contentDescription="@string/content_desc_movie_poster"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:scaleType="fitXY"
+    android:transitionName="@string/transition_movie_poster" />

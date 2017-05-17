@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/label_plot"
+            style="@style/TextAppearance.PopularMovies2.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_plot"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/plot"
+            style="@style/TextAppearance.PopularMovies2.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_plot"
+            tools:text="From the legendary director Ridley Scott comes a groppling tale of human
+            strength and the will to survive. During a mission to Mars, American astronaut Mark Watney
+            is presumed dead and left behind. But Watney is still alive. Against all odds, he must find a way
+            to contact Earth in the hope that scientist can device a rescue plan to bring him home." />
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
