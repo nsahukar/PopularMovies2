@@ -4,12 +4,11 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.nsahukar.com.popularmovies2.adapter.MoviesAdapter;
 import android.nsahukar.com.popularmovies2.databinding.ActivityMainBinding;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements MoviesAdapter.OnItemClickListener {

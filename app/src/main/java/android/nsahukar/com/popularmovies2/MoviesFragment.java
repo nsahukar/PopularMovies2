@@ -90,18 +90,6 @@ public abstract class MoviesFragment extends Fragment {
         mMoviesBinding.recyclerViewMovies.setVisibility(RecyclerView.VISIBLE);
     }
 
-    // Wrapper class that serves as a union of a result value and an exception.
-    protected class Result<T> {
-        public T value;
-        public Exception exception;
-        public Result(T resultValue) {
-            value = resultValue;
-        }
-        public Result(Exception e) {
-            exception = e;
-        }
-    }
-
 
     /*
         life cycle methods

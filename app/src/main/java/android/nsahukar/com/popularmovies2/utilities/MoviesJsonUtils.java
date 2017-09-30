@@ -2,10 +2,9 @@ package android.nsahukar.com.popularmovies2.utilities;
 
 
 import android.content.ContentValues;
-import android.nsahukar.com.popularmovies2.data.MoviesContract;
 import android.nsahukar.com.popularmovies2.data.MoviesContract.MoviesEntry;
-import android.nsahukar.com.popularmovies2.data.MoviesContract.VideosEntry;
 import android.nsahukar.com.popularmovies2.data.MoviesContract.ReviewsEntry;
+import android.nsahukar.com.popularmovies2.data.MoviesContract.VideosEntry;
 
 import org.json.JSONArray;
 import org.json.JSONException;
